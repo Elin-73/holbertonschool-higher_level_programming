@@ -1,0 +1,3 @@
+--creates database
+
+COMMIT;
