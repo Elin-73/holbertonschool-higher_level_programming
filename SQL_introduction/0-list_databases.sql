@@ -1,4 +1,3 @@
+-- IT SHOWS THE DATABASES, ok.
 SHOW databases;
-
-
 COMMIT;
