@@ -1,0 +1,2 @@
+// Code to count the shcool collection
+db.school.count()
