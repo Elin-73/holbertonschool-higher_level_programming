@@ -1,0 +1,2 @@
+// Code to find all the dbs
+db.school.find();
