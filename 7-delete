@@ -1,0 +1,2 @@
+// Code to delete certain items
+db.school.deleteMany({ name : "Holberton school" })
