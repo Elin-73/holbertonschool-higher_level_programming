@@ -2,7 +2,7 @@
 """ Is there any way to read this? """
 import pymongo
 
-def list_all(mongo_collection) -> list:
+def list_all(mongo_collection):
     documents: list = []
 
     for document in mongo_collection.find():
