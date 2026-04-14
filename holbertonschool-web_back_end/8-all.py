@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """ Is there any way to read this? """
-import pymongo
 
 def list_all(mongo_collection):
     documents: list = []
