@@ -8,3 +8,4 @@ def list_all(mongo_collection):
         documents.append(document)
 
     return documents
+
