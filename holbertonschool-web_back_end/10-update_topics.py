@@ -5,5 +5,6 @@ from typing import List
 
 
 def update_topics(mongo_collection, name, topics):
+    """ Dictionary for the name set as name, etc """
     query: dict = { "name" : name }
     mongo_collection.update_many( query, { "$set" : { "topics" : topics }})
